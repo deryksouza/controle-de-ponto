@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Noto+Sans:wght@100;400&display=swap');
+
+body, h2, p, a, form {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Estilo para o contêiner principal do formulário */
+.telaPrincipal {
+        width: 100vw;
+        height: 100vh;
+        background: #201b2c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.logo3 {
+    width: 17%;
+    border: none;
+}
+
+/* Estilo para o cabeçalho do formulário */
+.tela_header {
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+/* Estilo para o título dentro do cabeçalho */
+.tela_header h2 {
+    font-size: 2vw;
+    margin-top: 10px;
+    color: #00ff88;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.horas {
+     margin-top: 30px;
+     padding: 8px 12px;
+     border-radius: 5px;    
+    color: #ff0095;
+    
+}
+/* Estilo para a mensagem de sessão */
+.tela_header p {
+    color: #00ff88; /* Cor vermelha para mensagens de erro */
+}
+
+/* Estilo para o link "Registrar" */
+.tela_header a {
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* Estilo para o link "Registrar" quando hover */
+.tela_header a:hover {
+    background-color: #0056b3;
+}
